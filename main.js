@@ -54,7 +54,7 @@ function tampilkanKeranjang(index) {
 }
 
 const keluar = function () {
-  alert("Terima kasih telah menggunakan Sistem Kasir.");
+  alert("Terima kasih telah menggunakan Sistem Kasir kami🙏.");
 };
 
 main();
