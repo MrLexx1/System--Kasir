@@ -54,7 +54,12 @@ function tampilkanKeranjang(index) {
 }
 
 const keluar = function () {
-  alert("Terima kasih telah menggunakan Sistem Kasir kami🙏.");
+  let confir = confirm("Apakah Anda yakin ingin keluar?");
+  if(!confir) {
+    main();
+  } else {
+    alert("Terima kasih telah belanja!");
+  }
 };
 
 main();
